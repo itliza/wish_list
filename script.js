@@ -1,7 +1,7 @@
 function counterDays() {
     const todayDate = new Date();
-    // const bDay = new Date('May, 04, 2023 00:00');
-    const bDay = new Date('June, 28, 2022 14:55');
+    const bDay = new Date('May, 04, 2023 00:00');
+    // const bDay = new Date('June, 28, 2022 14:55');
 
     const diff = bDay - todayDate;
 

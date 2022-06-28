@@ -155,6 +155,9 @@ body {
     font-size: 32px;
     line-height: 39px;
     color: #1F3865;
+    
+}
+.script__title:not(:last-child) {
     margin-bottom: 127px;
 }
 .script {
@@ -346,6 +349,9 @@ body {
         align-items: center;
         padding: 0 20px;
     }
+    .brands__wrapper {
+        padding: 0;
+    }
     .brand__img-box {
         width: 80px;
         margin-right: 20px;
@@ -414,5 +420,18 @@ body {
     }
     .data::before {
         left: 48px;
+    }
+    .content {
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+    .content__wrapper {
+        background-color: #ffffff;
+    }
+    .brands {
+        padding: 0;
+    }
+    .title {
+        margin-bottom: 20px;
     }
 }
