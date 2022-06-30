@@ -36,3 +36,4 @@ function counterDays() {
 } 
 
 const countDown = setInterval(counterDays, 1000);
+
