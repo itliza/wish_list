@@ -1,7 +1,7 @@
 function counterDays() {
     const todayDate = new Date();
     const bDay = new Date('May, 04, 2023 00:00');
-    // const bDay = new Date('June, 28, 2022 14:55');
+    // const bDay = new Date('July, 7, 2022 12:12');
 
     const diff = bDay - todayDate;
 
@@ -27,10 +27,11 @@ function counterDays() {
         document.querySelector('.data__minute').textContent = ``;
         document.querySelector('.data__sec').textContent = ``;
 
-        document.querySelector('.data__box').textContent = `🎉 It's Your B-Day 🎉`;
-        document.querySelector('#titleToChange').textContent = `Hurray!!!`
+        document.querySelector('.timer__title').textContent = `🎉 It's Your B-Day 🎉`;
+        
+        let styleElem = document.head.appendChild(document.createElement("style"));
 
-        document.querySelector('#titleToDelete').textContent = `Congrats!!`
+        styleElem.innerHTML = ".timer__big-round::after {content: 'Hurray!!';}";
     }
 
 } 
