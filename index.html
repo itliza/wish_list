@@ -1,218 +1,314 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>My Wish List</title>
-        <meta charset = "utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <nav class="nav">
-            <div class="logo">My wishes</div>
-            <div class="nav__bar">
-                <ul class="links__wrapper">
-                    <li class="li__wrapper"><a class="nav__link" href="#threeDreams">3 dreams</a></li>
-                    <li class="li__wrapper"><a class="nav__link" href="#fiveBrands">5 brands</a></li>
-                    <li class="li__wrapper"><a class="nav__link" href="#threeGood">3 good idea</a></li>
-                    <li class="li__wrapper"><a class="nav__link" href="#threeBad">3 bad idea</a></li>
-                    <li class="li__wrapper"><a class="nav__link" href="#wishlist">wishlist</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="decoration">
-            <div class="decor">
-                <img src="img/decor3.svg" alt="" class="decor__frame">
-            </div>
-
-            <div class="timer__box">
-                <div class="info">
-                    <h2 class="title">Keep in mind</h2>
-                    <div class="hero__text">
-                        <p class="text__par">I love surprises and unexpected pleasant emotions</p>
-                        <p class="text__par">I prefer flowers in pots, but please don't forget about my cat.</p>
-                        <p class="text__par">Some plants are dangerous to her</p>
-                    </div>
-                </div>
-                <div class="timer">
-                    <div class="timer__decor">
-                        <div class="timer__big-round">
-                            <div class="timer__info">
-                                <p class="timer__title">My Birthday’s only</p>
-                                <p class="timer__time">
-                                    <span class="data__day"></span>
-                                    <span class="data__hour"></span>
-                                    <span class="data__minute"></span>
-                                    <span class="data__sec"></span>
-                                </p>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
+  <head>
+    <title>My Wish List</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="logo">My wishes</div>
+      <div class="nav__bar">
+        <ul class="links__wrapper">
+          <li class="li__wrapper">
+            <a class="nav__link" href="#threeDreams">3 dreams</a>
+          </li>
+          <li class="li__wrapper">
+            <a class="nav__link" href="#fiveBrands">5 brands</a>
+          </li>
+          <li class="li__wrapper">
+            <a class="nav__link" href="#threeGood">3 good idea</a>
+          </li>
+          <li class="li__wrapper">
+            <a class="nav__link" href="#threeBad">3 bad idea</a>
+          </li>
+          <li class="li__wrapper">
+            <a class="nav__link" href="#wishlist">wishlist</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="decoration">
+      <div class="decor">
+        <div class="decor-img__wrapper">
+          <!-- <img src="img/decor3.svg" alt="" class="decor__frame" /> -->
+          <img src="img/avatar0.jpg" alt="" class="main__avatar" />
+          <div class="test">
+            <img src="img/decor3.svg" alt="" />
+          </div>
         </div>
-        <section class="content">
-            <h2 class="title" id="threeDreams">3 dreams</h2>
-            <ul class="content__wrapper no__bg">
-                <li class="img__wrapper">
-                    <img src="img/dream1.jpg" alt="" class="content__img">
-                    <p class="content__text">travel to Cuba</p>
-                </li>
-                <li class="img__wrapper">
-                    <img src="img/dream2.jpg" alt="" class="content__img">
-                    <p class="content__text">world fame</p>
-                </li>
-                <li class="img__wrapper">
-                    <img src="img/dream3.jpg" alt="" class="content__img">
-                    <p class="content__text">cozy art workshop</p>
-                </li>
-            </ul>
-        </section>
-        <section class="brands">
-            <h2 class="title" id="fiveBrands">5 brands</h2>
-            <ul class="content__wrapper brands__wrapper">
-                <li class="brand__wrapper">
-                    <div class="brand__img-box">
-                        <img src="img/brand1.jpg" alt="" class="brand__img">
-                    </div>
-                    <p class="content__text">apple</p>
+        <div class="decor__avatar"></div>
+      </div>
 
-                </li>
-                <li class="brand__wrapper">
-                    <div class="brand__img-box">
-                        <img src="img/brand2.jpg" alt="" class="brand__img">
-                    </div>
-                    <p class="content__text">IKEA</p>
-
-                </li>
-                <li class="brand__wrapper">
-                    <div class="brand__img-box">
-                        <img src="img/brand3.jpg" alt="" class="brand__img">
-                    </div>
-                    <p class="content__text">Jo Malone</p>
-
-                </li>
-                <li class="brand__wrapper">
-                    <div class="brand__img-box">
-                        <img src="img/brand4.jpg" alt="" class="brand__img">
-                    </div>
-                    <p class="content__text">philips</p>
-                </li>
-                <li class="brand__wrapper">
-                    <div class="brand__img-box">
-                        <img src="img/brand5.jpg" alt="" class="brand__img">
-                    </div>
-                    <p class="content__text">D&G</p>
-                </li>
-            </ul>
-        </section>
-        <section class="content">
-            <h2 class="title title__extra" id="threeGood">3 always <span class="title">GOOD</span> idea</h2>
-            <ul class="content__wrapper">
-                <li class="img__wrapper">
-                    <img src="img/good1.jpg" class="content__img" alt="">
-                    <p class="content__text content__text--extra">candles</p>
-                </li>
-                <li class="img__wrapper">
-                    <img src="img/good2.jpg" class="content__img" alt="">
-                    <p class="content__text content__text--extra">cute notebooks</p>
-                </li>
-                <li class="img__wrapper">
-                    <img src="img/good3.jpg" class="content__img" alt="">
-                    <p class="content__text content__text--extra">money</p>
-                </li>
-            </ul>
-        </section>
-        <section class="content">
-            <h2 class="title title__extra" id="threeBad">3 always <span class="title--bad">BAD</span> idea</h2>
-            <ul class="content__wrapper">
-                <li class="img__wrapper">
-                    <img src="img/bad1.jpg" class="content__img" alt="">
-                    <p class="content__text title--bad">souvenirs</p>
-                </li>
-                <li class="img__wrapper">
-                    <img src="img/bad2.jpg" class="content__img" alt="">
-                    <p class="content__text title--bad">stuffed toys</p>
-                </li>
-                <li class="img__wrapper">
-                    <img src="img/bad3.jpg" class="content__img" alt="">
-                    <p class="content__text title--bad">sweets</p>
-                </li>
-            </ul>
-        </section>
-        <section class="wishlist">
-            <h2 class="title" id="wishlist">wishlist</h2>
-            <div class="wishlist__wrapper">
-                <ul class="content__wrapper">
-                    <li class="img__wrapper">
-                        <img src="img/wish1.svg" class="content__img--wish" alt="">
-                        <div class="content__img--visible">
-                            <p class="foot__logo">Yves Saint Laurent Black Opium</p>
-                            <img src="img/gift.svg" width="48" height="48" alt="">
-                            <p><a href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059">Buy!</a></p>  
-                        </div>
-                        <p class="mobile__desc"><a href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059">Yves Saint Laurent Black Opium</a></p>  
-                    </li>
-                    <li class="img__wrapper">
-                        <img src="img/wish2.avif" class="content__img--wish" alt="">
-                        <div class="content__img--visible">
-                            <p class="foot__logo">Yves Saint Laurent Black Opium</p>
-                            <img src="img/gift.svg" width="48" height="48" alt="">
-                            <p><a href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059">Buy!</a></p>
-                        </div>
-                        <p class="mobile__desc"><a href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059">Yves Saint Laurent Black Opium</a></p>  
-                    </li>
-                    <li class="img__wrapper">
-                        <img src="img/wish3.avif" class="content__img--wish" alt="">
-                        <div class="content__img--visible">
-                            <p class="foot__logo">Yves Saint Laurent Black Opium</p>
-                            <img src="img/gift.svg" width="48" height="48" alt="">
-                            <p><a href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059">Buy!</a></p>
-                        </div>
-                        <p class="mobile__desc"><a href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059">Yves Saint Laurent Black Opium</a></p>  
-                    </li>
-                </ul>
-                <ul class="content__wrapper">
-                    <li class="img__wrapper">
-                        <img src="img/wish4.avif" class="content__img--wish" alt="">
-                        <div class="content__img--visible">
-                            <p class="foot__logo">Yves Saint Laurent Black Opium</p>
-                            <img src="img/gift.svg" width="48" height="48" alt="">
-                            <p><a href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059">Buy!</a></p>
-                        </div>
-                        <p class="mobile__desc"><a href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059">Yves Saint Laurent Black Opium</a></p>  
-                    </li>
-                    <li class="img__wrapper">
-                        <img src="img/wish5.avif" class="content__img--wish" alt="">
-                        <div class="content__img--visible">
-                            <p class="foot__logo">Yves Saint Laurent Black Opium</p>
-                            <img src="img/gift.svg" width="48" height="48" alt="">
-                            <p><a href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059">Buy!</a></p>
-                        </div>
-                        <p class="mobile__desc"><a href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059">Yves Saint Laurent Black Opium</a></p>  
-                    </li>
-                    <li class="img__wrapper">
-                        <img src="img/wish6.avif" class="content__img--wish" alt="">
-                        <div class="content__img--visible">
-                            <p class="foot__logo">Yves Saint Laurent Black Opium</p>
-                            <img src="img/gift.svg" width="48" height="48" alt="">
-                            <p><a href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059">Buy!</a></p>
-                        </div>
-                        <p class="mobile__desc"><a href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059">Yves Saint Laurent Black Opium</a></p>  
-                    </li>
-                </ul>
+      <div class="timer__box">
+        <div class="info">
+          <h2 class="title">Keep in mind</h2>
+          <div class="hero__text">
+            <p class="text__par">
+              I love surprises and unexpected pleasant emotions
+            </p>
+            <p class="text__par">
+              I prefer flowers in pots, but please don't forget about my cat.
+            </p>
+            <p class="text__par">Some plants are dangerous to her</p>
+          </div>
+        </div>
+        <div class="timer">
+          <div class="test-timer">
+            <div class="timer__info">
+              <p class="timer__title">My Birthday’s only</p>
+              <p class="timer__time">
+                <span class="data__day"></span>
+                <span class="data__hour"></span>
+                <span class="data__minute"></span>
+                <span class="data__sec"></span>
+              </p>
             </div>
-        </section>
-        <footer class="foot">
-            <div class="foot__logo">
-                <p>© My wishes </p>
+          </div>
+          <div class="test-timer__small">
+            <div class="timer__info">
+              <p class="timer__title">away</p>
             </div>
-            <ul class="social">
-                <li><a href="https://www.facebook.com/elizaveta.romanjuk" class="social__link--first"><img src="img/facebook1.svg" alt=""></a></li>
-                <li><a href="https://www.instagram.com/lizaveta_erunda/" class="social__link--second"><img src="img/inst1.svg" alt=""></a></li>
-            </ul>
-        </footer>
-        <script src="script.js"></script>
-    </body>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="content">
+      <h2 class="title" id="threeDreams">3 dreams</h2>
+      <ul class="content__wrapper no__bg">
+        <li class="img__wrapper">
+          <img src="img/dream1.avif" alt="" class="content__img" />
+          <p class="content__text">travel to Italy</p>
+        </li>
+        <li class="img__wrapper">
+          <img src="img/dream2.avif" alt="" class="content__img" />
+          <p class="content__text">mobile home</p>
+        </li>
+        <li class="img__wrapper">
+          <img src="img/dream3.avif" alt="" class="content__img" />
+          <p class="content__text">stay healthy and strong</p>
+        </li>
+      </ul>
+    </section>
+    <section class="brands">
+      <h2 class="title" id="fiveBrands">5 brands</h2>
+      <ul class="content__wrapper brands__wrapper">
+        <li class="brand__wrapper">
+          <div class="brand__img-box">
+            <img src="img/brand1.jpg" alt="" class="brand__img" />
+          </div>
+          <p class="content__text">apple</p>
+        </li>
+        <li class="brand__wrapper">
+          <div class="brand__img-box">
+            <img src="img/brand2.jpg" alt="" class="brand__img" />
+          </div>
+          <p class="content__text">IKEA</p>
+        </li>
+        <li class="brand__wrapper">
+          <div class="brand__img-box">
+            <img src="img/brand3.jpg" alt="" class="brand__img" />
+          </div>
+          <p class="content__text">Jo Malone</p>
+        </li>
+        <li class="brand__wrapper">
+          <div class="brand__img-box">
+            <img src="img/brand4.jpg" alt="" class="brand__img" />
+          </div>
+          <p class="content__text">philips</p>
+        </li>
+        <li class="brand__wrapper">
+          <div class="brand__img-box">
+            <img src="img/brand5.jpg" alt="" class="brand__img" />
+          </div>
+          <p class="content__text">D&G</p>
+        </li>
+      </ul>
+    </section>
+    <section class="content">
+      <h2 class="title title__extra" id="threeGood">
+        3 always <span class="title">GOOD</span> idea
+      </h2>
+      <ul class="content__wrapper">
+        <li class="img__wrapper">
+          <img src="img/good1.jpg" class="content__img" alt="" />
+          <p class="content__text content__text--extra">candles</p>
+        </li>
+        <li class="img__wrapper">
+          <img src="img/good2.jpg" class="content__img" alt="" />
+          <p class="content__text content__text--extra">cute notebooks</p>
+        </li>
+        <li class="img__wrapper">
+          <img src="img/good3.jpg" class="content__img" alt="" />
+          <p class="content__text content__text--extra">money</p>
+        </li>
+      </ul>
+    </section>
+    <section class="content">
+      <h2 class="title title__extra" id="threeBad">
+        3 always <span class="title--bad">BAD</span> idea
+      </h2>
+      <ul class="content__wrapper">
+        <li class="img__wrapper">
+          <img src="img/bad1.jpg" class="content__img" alt="" />
+          <p class="content__text title--bad">souvenirs</p>
+        </li>
+        <li class="img__wrapper">
+          <img src="img/bad2.jpg" class="content__img" alt="" />
+          <p class="content__text title--bad">stuffed toys</p>
+        </li>
+        <li class="img__wrapper">
+          <img src="img/bad3.jpg" class="content__img" alt="" />
+          <p class="content__text title--bad">sweets</p>
+        </li>
+      </ul>
+    </section>
+    <section class="wishlist">
+      <h2 class="title" id="wishlist">wishlist</h2>
+      <div class="wishlist__wrapper">
+        <ul class="content__wrapper">
+          <li class="img__wrapper">
+            <img src="img/wish1.avif" class="content__img--wish" alt="" />
+            <div class="content__img--visible">
+              <p class="foot__logo">Boxing Gloves</p>
+              <img src="img/gift.svg" width="48" height="48" alt="" />
+              <p>
+                <a
+                  href="https://battlersport.com/product/rukavyczi-bokserski-universalni-chorni-z-tysnennyam/"
+                  >Buy!</a
+                >
+              </p>
+            </div>
+            <p class="mobile__desc">
+              <a
+                href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059"
+                >Yves Saint Laurent Black Opium</a
+              >
+            </p>
+          </li>
+          <li class="img__wrapper">
+            <img src="img/wish2.avif" class="content__img--wish" alt="" />
+            <div class="content__img--visible">
+              <p class="foot__logo">Rollerblades</p>
+              <img src="img/gift.svg" width="48" height="48" alt="" />
+              <p>
+                <a
+                  href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059"
+                  >Buy!</a
+                >
+              </p>
+            </div>
+            <p class="mobile__desc">
+              <a
+                href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059"
+                >Yves Saint Laurent Black Opium</a
+              >
+            </p>
+          </li>
+          <li class="img__wrapper">
+            <img src="img/wish3.webp" class="content__img--wish" alt="" />
+            <div class="content__img--visible">
+              <p class="foot__logo">Sneakers</p>
+              <img src="img/gift.svg" width="48" height="48" alt="" />
+              <p>
+                <a
+                  href="https://modivo.ua/p/hoka-vzuttia-dlia-bigu-challenger-atr-7-gtx-1134502f-fioletovii-0000305030801"
+                  >Buy!</a
+                >
+              </p>
+            </div>
+            <p class="mobile__desc">
+              <a
+                href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059"
+                >Yves Saint Laurent Black Opium</a
+              >
+            </p>
+          </li>
+        </ul>
+        <ul class="content__wrapper">
+          <li class="img__wrapper">
+            <img src="img/wish4.avif" class="content__img--wish" alt="" />
+            <div class="content__img--visible">
+              <p class="foot__logo">Yves Saint Laurent Black Opium</p>
+              <img src="img/gift.svg" width="48" height="48" alt="" />
+              <p>
+                <a
+                  href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059"
+                  >Buy!</a
+                >
+              </p>
+            </div>
+            <p class="mobile__desc">
+              <a
+                href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059"
+                >Yves Saint Laurent Black Opium</a
+              >
+            </p>
+          </li>
+          <li class="img__wrapper">
+            <img src="img/wish5.avif" class="content__img--wish" alt="" />
+            <div class="content__img--visible">
+              <p class="foot__logo">Yves Saint Laurent Black Opium</p>
+              <img src="img/gift.svg" width="48" height="48" alt="" />
+              <p>
+                <a
+                  href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059"
+                  >Buy!</a
+                >
+              </p>
+            </div>
+            <p class="mobile__desc">
+              <a
+                href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059"
+                >Yves Saint Laurent Black Opium</a
+              >
+            </p>
+          </li>
+          <li class="img__wrapper">
+            <img src="img/wish6.avif" class="content__img--wish" alt="" />
+            <div class="content__img--visible">
+              <p class="foot__logo">Yves Saint Laurent Black Opium</p>
+              <img src="img/gift.svg" width="48" height="48" alt="" />
+              <p>
+                <a
+                  href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059"
+                  >Buy!</a
+                >
+              </p>
+            </div>
+            <p class="mobile__desc">
+              <a
+                href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059"
+                >Yves Saint Laurent Black Opium</a
+              >
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer class="foot">
+      <div class="foot__logo">
+        <p>© My wishes</p>
+      </div>
+      <ul class="social">
+        <li>
+          <a
+            href="https://www.facebook.com/elizaveta.romanjuk"
+            class="social__link--first"
+            ><img src="img/facebook1.svg" alt=""
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/lizaveta_erunda/"
+            class="social__link--second"
+            ><img src="img/inst1.svg" alt=""
+          /></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
