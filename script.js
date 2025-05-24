@@ -37,3 +37,18 @@ function updateBirthdayTimer() {
 }
 
 setInterval(updateBirthdayTimer, 1000);
+
+let arr1 = [1, 2, 5, 8, 0];
+let arr2 = [3, 1, 4, 2];
+
+// let res = arr1.filter((elem) => {
+//   return arr2.includes(elem);
+// });
+
+// console.log(res);
+
+let set1 = new Set(arr1);
+
+let hasCommon = arr2.filter((item) => set1.has(item));
+
+console.log(hasCommon);
