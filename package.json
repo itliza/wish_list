@@ -1,0 +1,16 @@
+{
+  "name": "wish_list",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "purge": "purgecss --css css/style.css --content *.html --output css/cleaned"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "purgecss": "^7.0.2"
+  }
+}
