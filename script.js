@@ -38,17 +38,19 @@ function updateBirthdayTimer() {
 
 setInterval(updateBirthdayTimer, 1000);
 
-let arr1 = [1, 2, 5, 8, 0];
-let arr2 = [3, 1, 4, 2];
+const scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
-// let res = arr1.filter((elem) => {
-//   return arr2.includes(elem);
-// });
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 300) {
+    scrollToTopBtn.style.display = "flex";
+  } else {
+    scrollToTopBtn.style.display = "none";
+  }
+});
 
-// console.log(res);
-
-let set1 = new Set(arr1);
-
-let hasCommon = arr2.filter((item) => set1.has(item));
-
-console.log(hasCommon);
+scrollToTopBtn.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+});

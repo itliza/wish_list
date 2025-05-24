@@ -377,6 +377,29 @@ body {
   color: #1f3865;
 }
 
+.scroll-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: rgba(252, 106, 87, 0.5);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  display: none; /* ховаємо за замовчуванням */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.scroll-to-top:hover {
+  background-color: rgba(255, 151, 75, 0.5);
+}
+
 /* media */
 
 @media (max-width: 1250px) {
