@@ -402,7 +402,8 @@ body {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  background-color: rgba(252, 106, 87, 0.5);
+  background: #fff5f5;
+  mix-blend-mode: multiply;
   color: #fff;
   border: none;
   border-radius: 50%;
@@ -410,8 +411,7 @@ body {
   height: 50px;
   font-size: 24px;
   cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  display: none; /* ховаємо за замовчуванням */
+  display: none;
   justify-content: center;
   align-items: center;
   z-index: 1000;
